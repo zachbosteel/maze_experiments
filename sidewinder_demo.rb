@@ -6,3 +6,6 @@ grid = Grid.new(19, 19)
 Sidewinder.on(grid)
 
 puts grid
+
+img = grid.to_png
+img.save "maze.png"
